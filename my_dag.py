@@ -21,7 +21,7 @@ with DAG (
       bash_command = """
         set -e
         pwd
-        ps
+        #ps
         echo $(date)
         pip list
         echo "Find me in the log"

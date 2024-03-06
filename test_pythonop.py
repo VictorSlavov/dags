@@ -11,7 +11,7 @@ def greet():
   print("hello... nevermind.")
 
 with DAG (
-  dag_id = 'my_dag',
+  dag_id = 'test_pythonop',
   default_args = default_args,
   description = 'This is test DAG',
   start_date = datetime(2024, 3, 1, 1),

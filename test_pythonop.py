@@ -16,7 +16,7 @@ def mymain():
     x = 0
     while True:
         x += 1
-        print("version4: {}".format(x))
+        print("version5: {}".format(x))
         time.sleep(1)
 
 with DAG (
